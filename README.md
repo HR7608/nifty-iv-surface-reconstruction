@@ -7,7 +7,7 @@ options chain dataset covering January 2026 expiry cycle.
 
 - **Dataset:** 975 timestamps × 28 option columns × 5460 missing values
 - **Metric:** Mean Squared Error (MSE) — lower is better
-- **Best Kaggle Score:** 0.0002694642
+- **Best Kaggle Score:** 0.0002694707
 
 ---
 
@@ -26,7 +26,7 @@ The IV surface is a **2-factor model**:
 | Neighbour averaging | 0.0014434083 |
 | Combined time + strike | 0.0012539798 |
 | Extended combined (2 steps) | 0.0005527288 |
-| **Rank-2 Iterative PCA** | **0.0002694642** |
+| **Rank-2 Iterative PCA** | **0.0002694707** |
 
 ### Best Model — Rank-2 Iterative PCA
 1. Initialize missing values with column mean
